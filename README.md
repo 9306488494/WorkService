@@ -7,7 +7,7 @@ So after all review and issues on Background services i launched my new API name
 
 You just need to implement an dependecy:
 
-implementation 'com.github.9306488494:WorkService:1.3'
+implementation 'com.github.9306488494:WorkService:1.4'
 
 and use goScheduler(); with two parameters, first is context and second is about Activity Tag(Current Activity tag).
 
