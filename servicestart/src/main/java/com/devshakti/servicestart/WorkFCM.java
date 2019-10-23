@@ -15,7 +15,7 @@ public class WorkFCM {
         // send to mainActivity
         int i=500;
         Intent intent1 = new Intent(mcontext, MyBroadcastReceiver.class);
-     
+
         PendingIntent pendingIntent = PendingIntent.getBroadcast(
                 mcontext.getApplicationContext(), 234324243, intent1, 0);
         AlarmManager alarmManager = (AlarmManager) mcontext.getSystemService(ALARM_SERVICE);
